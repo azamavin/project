@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+    font-family: Vazirmatn, sans-serif;
+}
+html{
+    direction: rtl; 
+}
+.header{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.header__logo{
+    width: 150px;
+}
+.header__nav{
+    margin-right: 20px;
+}
+.header__nav-link{
+    padding: 0 5px;
+    text-decoration: none;
+    font-size: medium;
+    color: rgb(46, 7, 7);
+    padding: o 30px;
+}
+.header__nav-active{
+    color: red;
+}
+.header__auth{
+    margin-right:auto;
+}
+.header__login-btn{
+    border: 1px solid rgb(13, 47, 13);
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 0 10px;
+    display: inline-block;
+    font-size: medium;
+}
+.header__registe-btn{
+    border: 1px solid rgb(13, 47, 13);
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 0 5px;
+    display: inline-block;
+    font-size: medium;
+}
+</style>
+</head>
+<body>
+    <header class="header">
+<div class="header__logo-cantainer">
+    <a href="#">
+        <img src="assest/img/logo.png" alt="" class="header__logo">
+    </a>
+</div>
+<nav class="header__nav">
+    <a href="#" class="header__nav-link header__nav-active">خانه</a>
+    <a href="#" class="header__nav-link">دوره</a>
+    <a href="#" class="header__nav-link">بلاگ</a>
+    <a href="#" class="header__nav-link">آمورش رایگان</a>
+    <a href="#" class="header__nav-link">سوالات متداول</a>
+    <a href="#" class="header__nav-link">تماس با ما</a>
+    <a href="#" class="header__nav-link">درباره ما</a>
+</nav>
+<div class="header__auth">
+<a href="#" class="header__login-btn">ورود</a>
+<a href="#" class="header__registe-btn">ثبت نام</a>
+</div>
+    </header>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html{
+        direction: rtl;
+    }
+    body {
+    font-family: Vazirmatn, sans-serif;
+    }
+    .sidebar{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        width: 300px;
+        height: 100%;
+        top: 0;
+        right: 0;
+        position: fixed;
+        overflow-x: hidden;
+        overflow-y: scroll;
+       
+    }
+    .sidebar__icon{
+        width: 80%;
+    }
+    .sidebar__topbar{
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        padding: 10px;
+        height: 150px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sidebar__close-btn{
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .sidebar__close-btn :hover{
+        color: red;
+    }
+    .sidebar__menu{
+        height: calc(100% - 120px);
+        overflow-y: auto;
+        padding: 5px;
+    }
+    .sidebar__menu-link{
+        text-decoration: none;
+        display: block;
+        padding: 5px 10px;
+        color: rgb(128, 128, 128);
+        border-radius: 15px;
+    }
+    .sidebar__menu-link :hover{
+        background-color: yellowgreen;
+    } 
+    .sidebar__menu-link-txt{
+        margin: 10px;
+    }
+    .footer__item{
+        margin: 10px; 
+        justify-content: space-between;
+        align-items: center;
+    }
+ </style>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="sidebar__topbar">
+        <img class="sidebar__icon" src="assest/img/parsian-logo.svg" alt="">
+        <i class="fa fa-times sidebar__close-btn" aria-hidden="true"></i> 
+    </div> 
+    <div class="sidebar__menu">
+        <ul>
+            <li>
+              <a href="#" class="sidebar__menu-link"><i class="fa fa-home" aria-hidden="true"></i><span class="sidebar__menu-link-txt">خانه</span></a>
+              <a href="#" class="sidebar__menu-link"><i class="fa fa-calculator" aria-hidden="true"></i><span class="sidebar__menu-link-txt">تفویم</span></a>
+              <a href="#" class="sidebar__menu-link"><i class="fa fa-comments" aria-hidden="true"></i><span class="sidebar__menu-link-txt">نظرات</span></a>
+              <a href="#" class="sidebar__menu-link"><i class="fa fa-phone" aria-hidden="true"></i><span class="sidebar__menu-link-txt">تماس با ما</span></a>
+              <a href="#" class="sidebar__menu-link"><i class="fa fa-user-o" aria-hidden="true"></i><span class="sidebar__menu-link-txt">درباره ما</span></a>
+              
+            </li>
+        </ul>
+    </div> 
+    <div class="footer">
+        <a href="#"><i class="fa fa-instagram footer__item" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-telegram footer__item" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-youtube-play footer__item" aria-hidden="true"></i></a>
+    </div>
+  </div>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
